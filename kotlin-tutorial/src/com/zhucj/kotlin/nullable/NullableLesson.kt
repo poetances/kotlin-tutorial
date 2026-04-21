@@ -1,4 +1,4 @@
-package com.zhucj.kotlin.basicdata
+package com.zhucj.kotlin.nullable
 
 /**
  * Kotlin 可空类型（Nullable Types）详解教程
