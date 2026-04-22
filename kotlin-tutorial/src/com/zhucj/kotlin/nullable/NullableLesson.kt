@@ -1,5 +1,7 @@
 package com.zhucj.kotlin.nullable
 
+import kotlin.math.sign
+
 /**
  * Kotlin 可空类型（Nullable Types）详解教程
  * 
@@ -225,7 +227,7 @@ class NullableLesson {
         val size = list?.size
         val first = list?.firstOrNull()
         val filtered = list?.filter { it.startsWith("a") }
-        
+
         println("列表大小: $size")       // 3
         println("第一个元素: $first")    // apple
         println("过滤结果: $filtered")   // [apple]
